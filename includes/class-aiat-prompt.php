@@ -30,7 +30,9 @@ class AIAT_Prompt {
 
 		return array(
 			'model'      => $model,
-			'max_tokens' => 80,
+			// Reasoning-capable vision models spend tokens on thinking first;
+			// a tight cap yields empty content. Give the answer room.
+			'max_tokens' => 512,
 			'messages'   => array(
 				array(
 					'role'    => 'user',
