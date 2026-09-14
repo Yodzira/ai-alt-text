@@ -23,6 +23,13 @@ Missing alt text is the most common accessibility defect. Filling it by hand for
 
 Nothing is applied without your approval. The key stays in your database.
 
+== Pro Version ==
+
+Pro adds automation, reports and integrations on top of the free version
+(one license = one site, 12 months of updates):
+
+https://yodsira.duckdns.org/buy/ai-alt-text
+
 == Installation ==
 
 1. Install and activate.

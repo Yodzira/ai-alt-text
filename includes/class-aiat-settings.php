@@ -41,7 +41,8 @@ class AIAT_Settings {
 			'api_key' => substr( trim( (string) ( isset( $in['api_key'] ) ? $in['api_key'] : '' ) ), 0, 200 ),
 			'model'   => substr( trim( (string) ( isset( $in['model'] ) ? $in['model'] : $defaults['model'] ) ), 0, 50 ),
 			'style'   => 'seo' === ( isset( $in['style'] ) ? $in['style'] : '' ) ? 'seo' : 'descriptive',
-			'language' => substr( trim( (string) ( isset( $in['language'] ) ? $in['language'] : $defaults['language'] ) ), 0, 30 ),
+			// Language goes verbatim into the API prompt: strip everything except letters, spaces and dashes.
+			'language' => substr( preg_replace( '/[^\p{L} \-]/u', '', trim( (string) ( isset( $in['language'] ) ? $in['language'] : $defaults['language'] ) ) ), 0, 30 ),
 			'daily_cap' => max( 0, (int) ( isset( $in['daily_cap'] ) ? $in['daily_cap'] : $defaults['daily_cap'] ) ),
 			'batch'   => max( 1, min( 25, (int) ( isset( $in['batch'] ) ? $in['batch'] : $defaults['batch'] ) ) ),
 		);
