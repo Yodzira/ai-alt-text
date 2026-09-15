@@ -28,7 +28,7 @@ Nothing is applied without your approval. The key stays in your database.
 Pro adds automation, reports and integrations on top of the free version
 (one license = one site, 12 months of updates):
 
-https://yodsira.duckdns.org/buy/ai-alt-text
+https://yodsira.com/buy/ai-alt-text
 
 == Installation ==
 

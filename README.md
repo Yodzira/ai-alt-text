@@ -44,4 +44,4 @@
 
 GPL-2.0-or-later (совместимо с WordPress).
 
-💰 **[Купить Pro / Buy Pro — 2 990 ₽/год](https://yodsira.duckdns.org/buy/ai-alt-text)** — лицензия на 1 сайт, 12 месяцев обновлений.
+💰 **[Купить Pro / Buy Pro — 2 990 ₽/год](https://yodsira.com/buy/ai-alt-text)** — лицензия на 1 сайт, 12 месяцев обновлений.
