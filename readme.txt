@@ -1,5 +1,5 @@
 === AI Alt Text ===
-Contributors: yodzira
+Contributors: yodsira
 Tags: alt text, accessibility, media library, ai, images
 Requires at least: 6.0
 Tested up to: 7.1
